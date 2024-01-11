@@ -6,7 +6,7 @@ A simple API wrapping https://deno.land/x/deno_doc 🦕
 
 ```ts
 const data = await fetch(
-  "http://deno_doc_server.deno.dev/?specifier=https://deno.land/x/deno_doc/mod.ts",
+  "http://deno-doc-server.deno.dev/?specifier=https://deno.land/x/deno_doc/mod.ts",
 ).then((res) => res.json());
 ```
 
